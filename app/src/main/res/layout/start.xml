@@ -19,7 +19,8 @@
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:focusable="true"
-            android:src="@drawable/test" />
+            android:background="#43B3A7"
+            android:src="@drawable/category" />
 
         <TextView
             android:id="@+id/textView2"
@@ -38,7 +39,8 @@
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:focusable="true"
-            android:src="@drawable/test" />
+            android:background="#43B3A7"
+            android:src="@drawable/comments" />
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -64,7 +66,8 @@
         android:layout_below="@id/textView3"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/test" />
+        android:background="#F1F1F1"
+        android:src="@drawable/manager" />
 
     <TextView
         android:id="@+id/textView4"
@@ -95,7 +98,8 @@
         android:layout_toRightOf="@id/textView5"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/test" />
+        android:background="#F1F1F1"
+        android:src="@drawable/alarm" />
 
     <TextView
         android:id="@+id/textView6"
@@ -125,7 +129,8 @@
         android:layout_below="@id/textView7"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/test" />
+        android:background="#F1F1F1"
+        android:src="@drawable/data" />
 
     <TextView
         android:id="@+id/textView8"
@@ -147,7 +152,8 @@
         android:layout_toRightOf="@id/textView5"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/test" />
+        android:background="#F1F1F1"
+        android:src="@drawable/administrator" />
 
     <TextView
         android:id="@+id/textView9"
