@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="#43B3A7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="注册"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/main_app_contact_sel"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/textView"
+        android:background="@drawable/test" />
+
+    <AutoCompleteTextView
+        android:id="@+id/main_app_nagv_text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:focusable="true"
+        android:hint="用户名"
+        android:textSize="20sp"
+        android:imeOptions="actionSend|flagNoEnterAction"
+        android:inputType="text"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:minHeight="34.0dip"
+        android:nextFocusRight="@+id/main_app_nagv_text2"
+        android:layout_below="@id/textView"
+        android:layout_toRightOf="@id/main_app_contact_sel"
+        android:textColorHint="#E3E3E3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="430dp"
+        android:layout_height="0.8dp"
+        android:background="#CCCCCC"
+        android:layout_below="@id/main_app_contact_sel"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/main_app_contact_sel2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/textView2"
+        android:background="@drawable/test" />
+
+    <AutoCompleteTextView
+        android:id="@+id/main_app_nagv_text2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:focusable="true"
+        android:hint="请输入您的手机号"
+        android:textSize="20sp"
+        android:imeOptions="actionSend|flagNoEnterAction"
+        android:inputType="number"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:minHeight="34.0dip"
+        android:nextFocusRight="@+id/main_app_nagv_text3"
+        android:layout_below="@id/textView2"
+        android:layout_toRightOf="@id/main_app_contact_sel2"
+        android:textColorHint="#E3E3E3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="430dp"
+        android:layout_height="0.8dp"
+        android:background="#CCCCCC"
+        android:layout_below="@id/main_app_contact_sel2"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/main_app_contact_sel3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/textView3"
+        android:background="@drawable/test" />
+
+    <AutoCompleteTextView
+        android:id="@+id/main_app_nagv_text3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:focusable="true"
+        android:hint="填写密码"
+        android:textSize="20sp"
+        android:imeOptions="actionSend|flagNoEnterAction"
+        android:inputType="textPassword"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:minHeight="34.0dip"
+        android:nextFocusRight="@+id/main_app_nagv_text4"
+        android:layout_below="@id/textView3"
+        android:layout_toRightOf="@id/main_app_contact_sel3"
+        android:textColorHint="#E3E3E3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="430dp"
+        android:layout_height="0.8dp"
+        android:background="#CCCCCC"
+        android:layout_below="@id/main_app_contact_sel3"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/main_app_contact_sel4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/textView4"
+        android:background="@drawable/test" />
+
+    <AutoCompleteTextView
+        android:id="@+id/main_app_nagv_text4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:focusable="true"
+        android:hint="请输入手机验证码"
+        android:textSize="20sp"
+        android:imeOptions="actionSend|flagNoEnterAction"
+        android:inputType="text"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:minHeight="34.0dip"
+        android:nextFocusRight="@+id/checkBox"
+        android:layout_below="@id/textView4"
+        android:layout_toRightOf="@id/main_app_contact_sel4"
+        android:textColorHint="#E3E3E3" />
+
+    <Button
+        android:id="@+id/Button"
+        android:background="#ACE586"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:focusable="true"
+        android:text="获取验证码"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@id/main_app_nagv_text4"
+        android:layout_alignRight="@id/main_app_nagv_text4"
+        android:layout_alignBottom="@id/main_app_nagv_text4"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="430dp"
+        android:layout_height="0.8dp"
+        android:background="#CCCCCC"
+        android:layout_below="@id/main_app_contact_sel4" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:gravity="center"
+        android:buttonTint="#3F9588"
+        android:nextFocusRight="@+id/Button3"
+        android:focusable="false"
+        android:layout_below="@id/textView5" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:background="#EDEDED"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:text="我已阅读并接受注册协议  >"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#C5C5C5"
+        android:layout_toRightOf="@id/checkBox"
+        android:layout_below="@id/textView5"
+        android:gravity="center_vertical|left"
+        android:stateListAnimator="@null"/>
+
+    <Button
+        android:id="@+id/Button3"
+        android:background="#42B2A6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:focusable="true"
+        android:text="注册"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@id/Button2"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:stateListAnimator="@null"/>
+
+    <Button
+        android:id="@+id/Button4"
+        android:background="#EDEDED"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:focusable="true"
+        android:text="立即体验"
+        android:textSize="15sp"
+        android:textColor="#057F70"
+        android:layout_below="@id/Button3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical|left"
+        android:stateListAnimator="@null"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:background="#A2A2A2"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/Button3"
+        android:layout_toRightOf="@id/Button4"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/Button5"
+        android:background="#EDEDED"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:focusable="true"
+        android:text="已有账号，立即登录"
+        android:textSize="15sp"
+        android:textColor="#057F70"
+        android:layout_below="@id/Button3"
+        android:layout_toRightOf="@id/textView6"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="17.5dp"
+        android:gravity="center_vertical|left"
+        android:stateListAnimator="@null"/>
+
+</RelativeLayout>
