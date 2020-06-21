@@ -23,7 +23,7 @@
         android:layout_height="70dp"
         android:background="#ffffff"
         android:focusable="false"
-        android:enablede="false"
+        android:clickable="false"
         android:layout_below="@id/textView"
         android:src="@drawable/user" />
 
@@ -59,7 +59,7 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:focusable="false"
-        android:enablede="false"
+        android:clickable="false"
         android:layout_below="@id/textView2"
         android:src="@drawable/phone" />
 
@@ -95,7 +95,7 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:focusable="false"
-        android:enablede="false"
+        android:clickable="false"
         android:layout_below="@id/textView3"
         android:src="@drawable/lock" />
 
@@ -131,7 +131,7 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:focusable="false"
-        android:enablede="false"
+        android:clickable="false"
         android:layout_below="@id/textView4"
         android:src="@drawable/identifying_code" />
 
