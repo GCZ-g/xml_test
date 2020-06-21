@@ -17,12 +17,15 @@
         android:textSize="28sp"
         android:gravity="center"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/main_app_contact_sel"
         android:layout_width="70dp"
         android:layout_height="70dp"
+        android:background="#ffffff"
+        android:focusable="false"
+        android:enablede="false"
         android:layout_below="@id/textView"
-        android:background="@drawable/test" />
+        android:src="@drawable/user" />
 
     <AutoCompleteTextView
         android:id="@+id/main_app_nagv_text"
@@ -50,12 +53,15 @@
         android:layout_below="@id/main_app_contact_sel"
         android:layout_marginLeft="10dp"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/main_app_contact_sel2"
+        android:background="#ffffff"
         android:layout_width="70dp"
         android:layout_height="70dp"
+        android:focusable="false"
+        android:enablede="false"
         android:layout_below="@id/textView2"
-        android:background="@drawable/test" />
+        android:src="@drawable/phone" />
 
     <AutoCompleteTextView
         android:id="@+id/main_app_nagv_text2"
@@ -83,12 +89,15 @@
         android:layout_below="@id/main_app_contact_sel2"
         android:layout_marginLeft="10dp"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/main_app_contact_sel3"
+        android:background="#ffffff"
         android:layout_width="70dp"
         android:layout_height="70dp"
+        android:focusable="false"
+        android:enablede="false"
         android:layout_below="@id/textView3"
-        android:background="@drawable/test" />
+        android:src="@drawable/lock" />
 
     <AutoCompleteTextView
         android:id="@+id/main_app_nagv_text3"
@@ -116,12 +125,15 @@
         android:layout_below="@id/main_app_contact_sel3"
         android:layout_marginLeft="10dp"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/main_app_contact_sel4"
+        android:background="#ffffff"
         android:layout_width="70dp"
         android:layout_height="70dp"
+        android:focusable="false"
+        android:enablede="false"
         android:layout_below="@id/textView4"
-        android:background="@drawable/test" />
+        android:src="@drawable/identifying_code" />
 
     <AutoCompleteTextView
         android:id="@+id/main_app_nagv_text4"
@@ -166,14 +178,16 @@
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="50dp"
+        android:layout_width="40dp"
         android:layout_height="50dp"
         android:scaleX="2"
         android:scaleY="2"
         android:gravity="center"
+        android:layout_marginLeft="20dp"
         android:buttonTint="#3F9588"
         android:nextFocusRight="@+id/Button3"
         android:focusable="false"
+        android:checked="true"
         android:layout_below="@id/textView5" />
 
     <Button
